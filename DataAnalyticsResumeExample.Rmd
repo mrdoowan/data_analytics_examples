@@ -1,0 +1,143 @@
+---
+title: "Steven Duan"
+author: Steven Duan
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    self_contained: false
+---
+
+Aside
+================================================================================
+
+
+![Data](data_icon.png){width=30%}
+
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> steven.duan@tufts.edu
+- <i class="fa fa-github"></i> [mrdoowan](https://github.com/mrdoowan/)
+- <i class="fa fa-phone"></i> +1 734-223-9582
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- <b>Coding Languages:</b> Python, JavaScript (Node & ES6), C++, C#, Java, Matlab
+
+- <b>Frameworks:</b> React, .NET
+
+- <b>Cloud:</b> AWS (Elastic Beanstalk, Lambda), Heroku (Deployment)
+
+- <b>Databases:</b> MySQL, SQL, MongoDb, DynamoDb
+
+- <b>Data Analysis:</b> R, RStudio
+
+- <b>Environments:</b> Linux
+
+Courses {#courses}
+--------------------------------------------------------------------------------
+
+- Machine Learning
+- Linear Algebra in Data Analysis
+- Probability
+- Communicating with Data
+- Big Data
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+<!--This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).-->
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Steven Duan {#title}
+--------------------------------------------------------------------------------
+
+### Current Graduate Student with software industry experience seeking internships in data science or backend.
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Tufts University
+
+M.S. Candidate in Data Analytics
+
+Medford, MA
+
+Sep 2021 -- Current
+
+
+### University of Michigan - Ann Arbor
+
+B.S.E in Computer Engineering
+
+Ann Arbor, MI
+
+2013 -- 2017
+
+
+
+Work Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### VLMY&R
+
+Full Stack Developer
+
+Detroit, MI
+
+Sep 2020 -- Current
+
+- Built the checkout and reservation list components (with React and Adobe AEM) of Ford’s inaugural ecommerce website to ensure the program’s launch in USA and EU regions.
+
+
+### Stellantis (formerly Fiat Chrysler Automobiles)
+
+Hybrid Diagnostic Calibration Engineer
+
+Chelsea, MI
+
+Jun 2017 -- Aug 2020
+
+- Calibrated vehicle diagnostics and improved its robustness with Matlab’s Simulink, reducing false diagnostic failures by 25% in Hybrid Pacifica Minivans.
+- Employed k-means clustering and linear regression with Python’s sklearn to enhance statistical analysis and set calibration thresholds in half the time.
+
+
+Selected Project Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### https://www.doowanstats.com
+
+Full Stack Developer
+
+Remote
+
+Sep 2019 -- Current
+
+- Self-taught and created my own full stack MERN (React and NodeJS ES6) website for amateur Esports leagues.
+- Planned the entire database with both MySQL and DynamoDb.
+- Implemented REST APIs through ExpressJS, utilized AWS Lambda for third party API endpoints, and employed read/write cache with Redis. 
+- Visualized data with React UI datagrids to display at least 20 different types of in-game stats and created scouting reports.
+
+
+Selected Presentations {data-icon=comment-alt}
+--------------------------------------------------------------------------------
+### DATA-200 Final Project
+
+Presented a model for analyzing possible direct impacts of environmental policies on climate change around the United States and the world. 
+
+Medford, MA
+
+December 2021
