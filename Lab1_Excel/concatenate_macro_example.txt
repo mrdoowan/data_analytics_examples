@@ -1,0 +1,25 @@
+Sub concatenate_boston_data()
+'
+' concatenate_boston_data Macro
+'
+
+'
+    For year_number = 18 To 12 Step -1
+        Windows("checkbook-explorerfy" & year_number & ".csv").Activate
+        ActiveCell.Offset(0, 1).Columns("A:B").EntireColumn.Select
+        Selection.Delete Shift:=xlToLeft
+        ActiveCell.Offset(0, 7).Columns("A:A").EntireColumn.Select
+        Selection.Delete Shift:=xlToLeft
+        ActiveCell.Offset(0, 1).Columns("A:A").EntireColumn.Select
+        Selection.Delete Shift:=xlToLeft
+        ActiveCell.Offset(1, -9).Range("A1").Select
+        Range(Selection, Selection.End(xlDown)).Select
+        Range(Selection, Selection.End(xlToRight)).Select
+        Selection.Copy
+        Windows("Book2").Activate
+        Range("A1").Select
+        Selection.End(xlDown).Select
+        ActiveCell.Offset(1, 0).Range("A1").Select
+        ActiveSheet.Paste
+    Next year_number
+End Sub
